@@ -1,0 +1,20 @@
+{
+  "name": "rs-nod-caesar-cipher",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "commonjs",
+  "description": "RS School NodeJS cli caesar cipher app",
+  "main": "app.js",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "commander": "^6.1.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {}
+}
