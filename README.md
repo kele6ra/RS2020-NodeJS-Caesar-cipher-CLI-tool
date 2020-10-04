@@ -26,12 +26,13 @@ node app <options>
 ```
 
 Options:
-  -s, --shift <number>      caesar cipher shift
-  -i, --input <file path>   input file path (required!)
-  -o, --output <file path>  output file path (required!)
-  -a, --action <type>       encode/decode
-  -h, --help                display help for command
-
+1.  **-s, --shift** <number>      caesar cipher shift
+2.  **-i, --input** <file path>   input file path (required!)
+3.  **-o, --output** <file path>  output file path (required!)
+4.  **-a, --action** <type>       encode/decode
+5.  **-h, --help**                display help for command
+  
+  
 Example:
 ```
 node app --action decode --shift 7
